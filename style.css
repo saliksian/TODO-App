@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    
+}
+
+h1,h6{
+    color: seagreen;
+}
+
+.container{
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 50%;
+}
+.input{
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid seagreen;
+    margin-bottom: 20px;
+}
+
+.todoList{
+    font-size: 20px;
+    text-align: start;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 7px;
+    color: royalblue;
+}
+i{
+    float: right;
+    font-size: 20px;
+}
+#delID{
+    color: rgb(252, 56, 34);
+    margin-right: 10rem;
+}
+#chkID{
+    color: rgb(98, 128, 218);
+    margin-right: 2rem;
+}
+#edtID{
+    color: rgb(98, 128, 218);
+    margin-right: 2rem;
+}
+#edtID:hover{
+    color: royalblue;
+}
+#chkID:hover{
+    color: royalblue;
+}
+#delID:hover{
+    color: red;
+}
+
+
+/*styling for input field to change on focus*/
+
+input[type=text] {
+    width: 200px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 300px;
+  }
